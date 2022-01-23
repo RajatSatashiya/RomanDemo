@@ -10,10 +10,10 @@ export default function Sidebar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="website.html">Explore the Roman Empire</a>
+              <a href="/explore">Explore the Roman Empire</a>
             </li>
             <li>
-              <a href="thoc.html">Our Team</a>
+              <a href="/welcome">Talk to fellow Romans</a>
             </li>
             <li>
               <a href="/login">Login</a>

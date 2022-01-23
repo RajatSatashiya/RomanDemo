@@ -31,13 +31,27 @@ class WelcomeScreen extends React.Component {
     const { email, room } = this.state;
     return (
       <>
-        <AppBar style={styles.header} elevation={10}>
+        {/* <AppBar style={styles.header} elevation={10}>
           <Toolbar>
             <Typography variant="h6">
               Chat App with Twilio Programmable Chat and React
             </Typography>
           </Toolbar>
-        </AppBar>
+        </AppBar> */}
+
+        {/* <div>
+          <TextField
+            name="email"
+            required
+            style={styles.textField}
+            label="Email address"
+            placeholder="Enter Roman Alias"
+            variant="outlined"
+            type="text"
+            value={email}
+            onChange={this.handleChange}
+          />
+        </div> */}
         <Grid
           style={styles.grid}
           container
@@ -52,9 +66,9 @@ class WelcomeScreen extends React.Component {
                 required
                 style={styles.textField}
                 label="Email address"
-                placeholder="Enter email address"
+                placeholder="Enter Roman Alias"
                 variant="outlined"
-                type="email"
+                type="text"
                 value={email}
                 onChange={this.handleChange}
               />
@@ -78,7 +92,7 @@ class WelcomeScreen extends React.Component {
                 style={styles.button}
                 onClick={this.login}
               >
-                Login
+                Join
               </Button>
             </Grid>
           </Card>
