@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.login-box {
+  /* position: absolute; */
+  display: flex;
+  width: 60%;
+  padding: 3rem;
+  background-color: #dadada;
+  background: #e9b862ef;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  box-shadow: 0 0 5.3px rgb(114, 114, 114);
+  z-index: -3;
+}
+.login-image {
+  width: 100%;
+}
+.the-form {
+  padding: 2rem 2rem 3rem 2rem;
+  width: 55%;
+  text-align: left;
+  background: #ececec;
+  border-radius: 10px;
+
+  /* box-shadow: 0 0 8px rgb(226, 226, 226); */
+}
+.the-form h1 {
+  font-size: 2.4rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+input[name="email"],
+input[name="password"],
+input[name="name"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 6px;
+  opacity: 0.8;
+  padding: 10px 0px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+label {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.813rem;
+  margin-left: 3px;
+}
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 13px;
+  font-family: Montserrat;
+  font-weight: 500;
+  background: #c63848;
+  background: #526f9e;
+  background: black;
+  color: white;
+  margin: 10px 0;
+}
+.btn:hover {
+  background: #ffbd4a;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.link {
+  color: #c63848;
+  color: #526f9e;
+  color: black;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.link:hover {
+  color: #feb622;
+}
+.remember {
+  color: black;
+  font-weight: 300;
+  position: relative;
+  top: -1.6px;
+}
+.errorMessage {
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  padding: 10px;
+  width: 100%;
+  color: #c63848;
+  border: 1px solid #c63848;
+}

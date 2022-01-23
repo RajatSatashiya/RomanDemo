@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+// import React from "react";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Redirect,
+// } from "react-router-dom";
+
+// import Navbar from "./components/Navbar";
+// import Login from "./components/Login";
+// import Landing from "./components/Landing";
+// import Signup from "./components/Signup";
+// import ChatScreen from "./ChatScreen";
+
+// function App() {
+//   return (
+//     <>
+//       <Router>
+//         <Navbar />
+//         <Switch>
+//           <Route exact path="/chat" component={ChatScreen} />
+//           <Route path="/" exact component={Landing} />
+//           <Route path="/login" component={Login} />
+//           <Route path="/signup" component={Signup} />
+//         </Switch>
+//       </Router>
+//     </>
+//   );
+// }
+
+// export default App;
+
+import React from "react";
+import Router from "./Router";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;

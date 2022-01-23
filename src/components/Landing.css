@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700;800;900&display=swap");
+
+.landing {
+  background: pink;
+}
+
+.leftPanel {
+  margin: 6rem 0 0 5rem;
+  width: 40%;
+  float: left;
+}
+
+.rightPanel {
+  float: right;
+  position: absolute;
+  right: 5px;
+  width: 50%;
+  /* z-index: -2; */
+  height: 80vh;
+}
+.coloImg {
+  width: 130%;
+}
+.projTitle {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+.button {
+  display: flex;
+}
+.btnLanding {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  background: #ffbd4a;
+  color: black;
+  margin: 0 0.6rem 2rem 0;
+  border-radius: 1.4rem;
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btnLanding:hover {
+  color: white;
+  background: black;
+  transform: scale(1.03);
+}
+.desc {
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
